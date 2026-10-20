@@ -20,7 +20,7 @@ on:
 
 jobs:
   release:
-    uses: m-plugs/.github/workflows/release-movian-plugin.yml@main
+    uses: m-plugs/.github/.github/workflows/release-movian-plugin.yml@main
     with:
       bump: ${{ inputs.bump }}
       prerelease: ${{ inputs.prerelease }}
