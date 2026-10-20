@@ -1,14 +1,14 @@
 {
-	"description": "Fshare là dịch vụ lưu trữ và chia sẻ dữ liệu trực tuyến",
-	"author": "tvhung83",
-	"homepage": "https://github.com/m-plugs/movian-plugin-fshare",
-	"title": "Fshare",
-	"synopsis": "Fshare",
-	"version": "0.1.8",
-	"file": "fshare.js",
-	"showtimeVersion": "5.0",
-	"type": "ecmascript",
-	"id": "fshare",
-	"icon": "logo.png",
-	"category": "video"
+  "description": "Fshare là dịch vụ lưu trữ và chia sẻ dữ liệu trực tuyến",
+  "author": "tvhung83",
+  "homepage": "https://github.com/m-plugs/movian-plugin-fshare",
+  "title": "Fshare",
+  "synopsis": "Fshare",
+  "version": "1.0.0",
+  "file": "fshare.js",
+  "showtimeVersion": "5.0",
+  "type": "ecmascript",
+  "id": "fshare",
+  "icon": "logo.png",
+  "category": "video"
 }
