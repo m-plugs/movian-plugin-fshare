@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump type"
+        required: true
+        type: choice
+        options: [patch, minor, major]
+        default: patch
+      prerelease:
+        description: "Mark as pre-release?"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Dry run (no commit / tag / release)?"
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    uses: m-plugs/.github/workflows/release-movian-plugin.yml@main
+    with:
+      bump: ${{ inputs.bump }}
+      prerelease: ${{ inputs.prerelease }}
+      dry_run: ${{ inputs.dry_run }}
+    secrets: inherit
